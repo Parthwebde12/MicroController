@@ -3,7 +3,9 @@ void delay(unsigned int);
 
 sbit sw  = P3^1;
 
-void main (void)
+void main (void)      //8051
+                      //Button //Mottor-stepper
+                     //ULN2003A
 {
 	P2= 0X00; 
 	while(1)
@@ -41,3 +43,4 @@ void delay (unsigned int m)
 		for(j = 0 ; j < 1275 ; j++);
 	}
 }
+
